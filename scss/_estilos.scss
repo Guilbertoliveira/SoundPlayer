@@ -41,7 +41,6 @@ body {
   .tecla:active {
     background-color: $vermelha;
     border: 4px solid  $vermelha;
-    box-shadow: 3px 3px 0 $vermelha-escura inset;
     color: $branca;
     outline: none;
   }
@@ -54,7 +53,7 @@ body {
   
   .tecla.active:focus,
   .tecla:active:focus {
-    box-shadow: 3px 3px 0 $vermelha-escura inset, 1px 1px 10px $luz;
+    box-shadow: 3px 3px 0 $vermelha-escura inset;
   }
   
 }
