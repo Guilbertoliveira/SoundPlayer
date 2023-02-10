@@ -1,5 +1,20 @@
 function tocaSom(idSelecionado){
-    document.querySelector(idSelecionado).play();
+    const elemento = document.querySelector(idSelecionado);
+
+   if (elemento === null) {
+    console.log('Elemento não encontrado');
+   }
+   if (elemento != null) {
+    
+    if (elemento.localName === 'audio')
+    {
+        elemento.play();
+    }
+    else {
+        console.log ('não é audio');
+    }
+   }
+
 }
 
 //document.querySelector('.tecla_pom').onclick = tocaSomPom;
