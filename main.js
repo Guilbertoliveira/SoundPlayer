@@ -17,7 +17,7 @@ function tocaSom(idSelecionado){
 
 }
 
-//document.querySelector('.tecla_pom').onclick = tocaSomPom;
+// document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
