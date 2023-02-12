@@ -58,5 +58,22 @@ body {
   
 }
 
+@media screen and (max-width: 480px) {
+  body {
+    .teclado {
+      grid-template-columns: 1fr 1fr 1fr;
+      box-shadow: none;
+      gap: 5px;
+      padding: 10px;
+      width: 95vw;
+    }
+
+    .tecla {
+      width: 100%;
+      
+    }
+  }
+}
+
 
 

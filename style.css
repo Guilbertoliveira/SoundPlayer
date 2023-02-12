@@ -145,4 +145,17 @@ body .tecla:focus {
 body .tecla.active:focus,
 body .tecla:active:focus {
   box-shadow: 3px 3px 0 #af303f inset;
+}
+
+@media screen and (max-width: 480px) {
+  body .teclado {
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: none;
+    gap: 5px;
+    padding: 10px;
+    width: 95vw;
+  }
+  body .tecla {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
