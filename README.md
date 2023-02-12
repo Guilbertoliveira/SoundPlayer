@@ -11,9 +11,11 @@
 <p>Simple project using basic Javascript</p>
 
 <h2 id="versaomobile">Version Mobile</h2>
+<img src="https://user-images.githubusercontent.com/41201436/218341177-96017263-32c9-4f82-80ca-5ecf66e38350.gif" alt="this slowpoke moves"  width="250" />
+
 
 <h2>Version Desktop</h2>
-<img src="https://user-images.githubusercontent.com/41201436/218340356-4e0775e9-4ec8-44e9-a91f-add05fac627a.gif" alt="this slowpoke moves"  width="800" height="550" />
+<img src="https://user-images.githubusercontent.com/41201436/218340356-4e0775e9-4ec8-44e9-a91f-add05fac627a.gif" alt="this slowpoke moves"  width="800" height="450" />
 
 <h2>Technologies used</h2>
         <p>
@@ -26,4 +28,5 @@
           
 <h2> Project link </h2>
 <a href="https://sound-player-five.vercel.app/">Link Vercel</a>
+
 
